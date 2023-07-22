@@ -4,7 +4,7 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+a { color:red; text-decoration: none;}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -35,4 +35,66 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+  
+header h1 {
+ text-align: center;
+ margin-left: 10px;
+ margin-top: -50px;
+ font-family: bebas;
+ background-color: red;
+ color: aliceblue;
+ font-size: 210%;
+}
+
+.main h1{
+    margin-right: 10px;
+    margin-top: 1px;
+    background-color: white;
+    color: black;
+}
+.figure{
+  text-align: center;
+}
+
+.main img{
+  max-width: 400px;
+  
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+table {
+    border: SOLID 1PX black;
+    text-align: center;
+
+}
+
+table tr {
+    background-color:gray;
+    color:white;
+}
+table thead th{
+    background-color: red;
+}
+
+.footer h3{
+    margin-left: 10px;
+    font-family: bebas;
+    background-color: red;
+    color: aliceblue;
+    font-size: 200%;
+}
+
+.footer a{
+    margin-left: 30%;
+    font-size: 200%;
+    font-family: bebas;
+}
+
+header img{
+    max-width: 100px; 
+    
 }
